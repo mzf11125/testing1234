@@ -1,8 +1,9 @@
-const AboutPage = ()=> {
-    return (
-        <div>
-            <h1>About</h1>
-            <p>This is the about page</p>
-        </div>
-    );
+import { pages } from "next/dist/build/templates/app-page"
+
+export default function AboutPage(){
+    return(
+        <h1>This is about pages</h1>
+    )
+
+
 }
